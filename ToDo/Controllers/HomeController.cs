@@ -101,7 +101,7 @@ namespace ToDo.Controllers
         [HttpPost]
         public IActionResult DeleteComplete(string id)
         {
-            var toDelete = _context.ToDoItems.Where(t =>  t.StatusId == id).ToList();
+            var toDelete = _context.ToDoItems.Where(t =>  t.StatusId == "closed").ToList();
 
             foreach (var item in toDelete)
             {

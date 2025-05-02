@@ -30,7 +30,6 @@
     </div>
     <div class="col-md-10">
         <form asp-action="MarkComplete" method="post" asp-route-id="@ViewBag.Filters.FilterString">
-            @* <input type="hidden" name="_method" value="PATCH" /> *@ 
             <table class="table table-bordered table-striped mt-2">
                 <thead>
                     <tr>
@@ -65,7 +64,6 @@
             </table>
         </form>
         <form asp-action="DeleteComplete" method="post" asp-route-id="@ViewBag.Filters.FilterString">
-            @* <input type="hidden" name="_method" value="DELETE" />  *@
             <a asp-action="Add" class="btn btn-primary">Add new task</a>
             <button type="submit" class="btn btn-primary">Delete completed Tasks</button>
         </form>
