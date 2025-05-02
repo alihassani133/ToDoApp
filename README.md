@@ -8,7 +8,7 @@ ToDoApp is a simple and interactive ToDo list built with ASP.NET Core 8 MVC. It 
   - **Description**
   - **Category**
   - **Due Date**
-  - **Status** (e.g., Pending, Completed)
+  - **Status** (e.g., Open, Completed)
 - Mark tasks as completed
 - Filter tasks by:
   - **Category**
@@ -31,7 +31,7 @@ The application uses **SQL Server** for data persistence. EF Core handles databa
 
 ## 👤 Contributor
 
-This project was developed and maintained by **[Your Name]**.
+This project was developed and maintained by **[Ali Hassani]**.
 
 ---
 
